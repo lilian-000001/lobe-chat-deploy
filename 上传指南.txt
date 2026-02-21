@@ -1,0 +1,107 @@
+GitHub 文件上传详细指南
+=====================================
+
+当前状态：
+✅ 仓库已创建：https://github.com/lilian-000001/lobe-chat-deploy
+✅ 代码文件已准备好
+⏳ 需要手动上传文件到 GitHub
+
+
+一、上传文件步骤
+=====================================
+
+1. 打开浏览器，访问：
+   https://github.com/lilian-000001/lobe-chat-deploy
+
+2. 等待仓库索引完成（如果显示 "This repository's code is being indexed"，
+   稍等1-2分钟后刷新页面）
+
+3. 找到上传按钮：
+   - 方法A：看页面右上角或中间区域
+   - 方法B：查找 "Add file" 或 "Upload files" 按钮
+   - 方法C：如果有 "Create new file" 也可以点
+
+4. 点击 "Add file" → 选择 "Upload files"
+
+5. 打开文件夹：
+   c:\Users\Lilian\CodeBuddy\20260221090549
+
+6. 选择以下文件（按住 Ctrl 键多选）：
+   ✅ README.md
+   ✅ DEPLOYMENT_GUIDE.md
+   ✅ ENV_CONFIG_GUIDE.md
+   ✅ EVOLINK_API_GUIDE.md
+   ✅ LOBEHUB_DEPLOYMENT.md
+   ✅ package.json
+   ✅ vercel.json
+   ✅ .env.example
+   ✅ .gitignore
+   ✅ deploy.sh
+
+   ❌ 不要选择：
+   ❌ .git 文件夹
+   ❌ lobe-chat-deploy.zip
+
+7. 将选中的文件拖拽到 GitHub 网页的上传区域（虚线框）
+
+8. 填写提交信息：
+   Commit message 输入框中填写：
+   Initial commit: Lobe Chat Vercel deployment setup
+
+9. 点击绿色按钮 "Commit changes"
+
+
+二、上传完成后
+=====================================
+
+文件上传成功后，告诉我，我会继续帮你：
+1. 配置 Vercel 部署
+2. 配置环境变量（包括你的 EvoLink API 密钥）
+
+
+三、遇到问题？
+=====================================
+
+1. 如果找不到 "Add file" 按钮：
+   - 刷新页面
+   - 等待仓库索引完成
+   - 尝试按 F5 刷新
+
+2. 如果拖拽上传不成功：
+   - 尝试点击 "choose your files" 按钮
+   - 然后选择文件
+
+3. 如果需要帮助：
+   - 截图发给我
+   - 或告诉我你看到了什么
+
+
+四、文件位置参考
+=====================================
+
+文件夹：c:\Users\Lilian\CodeBuddy\20260221090549
+
+需要上传的文件列表：
+- README.md (项目说明)
+- DEPLOYMENT_GUIDE.md (部署指南)
+- ENV_CONFIG_GUIDE.md (环境变量配置)
+- EVOLINK_API_GUIDE.md (EvoLink API 配置)
+- LOBEHUB_DEPLOYMENT.md (服务端数据库配置)
+- package.json (项目配置)
+- vercel.json (Vercel 配置)
+- .env.example (环境变量模板)
+- .gitignore (Git 忽略规则)
+- deploy.sh (部署脚本)
+
+
+五、快速参考
+=====================================
+
+你的 EvoLink API 密钥：
+sk-BFLYpDXLFa2RjCqNUHcMD2O3OpfZtDDdgsvRP7somCa7Mj63
+
+仓库地址：
+https://github.com/lilian-000001/lobe-chat-deploy
+
+下一步：
+上传文件后，将在 Vercel 部署应用
